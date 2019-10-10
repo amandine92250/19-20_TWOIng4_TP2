@@ -9,6 +9,26 @@
     font-family: 'My Lucida', Console;
 }
 
+.container-fluid {
+ padding-left: 8em;
+ padding-right: 8em;
+    
+
+}
+@media (max-width: 768px){ 
+    .container-fluid {
+ padding-left: 0em;
+ padding-right: 0em;
+    
+
+}
+    
+    
+}
+
+
+
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
@@ -99,7 +119,7 @@ h1 {
     margin-left: 12px;
 }
 
-
+/*
 .stats-links {
     color: #4b5c66;
     font-size: 12px;
@@ -121,7 +141,7 @@ h1 {
     font-weight: normal;
     color: #4b5c66;
 }
-
+*/
 h2 {
     font-size: 20px;
     font-weight: normal;
