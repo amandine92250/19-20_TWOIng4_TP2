@@ -15,14 +15,19 @@
     
 
 }
+
+
 @media (max-width: 768px){ 
     .container-fluid {
- padding-left: 0em;
- padding-right: 0em;
+ padding-left: 2em;
+ padding-right: 2em;
     
 
 }
     
+header .wrapper {
+    padding-left: 2em;
+} 
     
 }
 
@@ -31,6 +36,7 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+
 }
 
 a {
@@ -38,28 +44,72 @@ a {
     text-decoration: none;
 }
 
-.wrapper {
-    padding: 25px 0;
+
+header .wrapper {
+    padding: 2em 0;
+    background-color: white;
+    height: 6em;
+    margin: 0px;
 }
+
+.wrapper div {
+display: inline-block;
+}
+
 
 body > header {
     margin-bottom: 20px;
-    background: white;
+    background: blue;
+    box-shadow: 1px 0px 8px rgb(200, 200, 200);
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
 
-header .logo-search form  {
+
+
+header .search  {
     width: 50%;
+}
+
+header .logo{
+    padding-right:4em;
+ padding-left: 8em;
+    float: left;
+    
 }
 
 header .user {
     float: right;
+
+ padding-right: 8em;
+    
 }
 
+header .dropdown-menu {
+    display:none;
+    background-color: white;
+    color: #828c92;
+}
+
+
+header .dropdown-menu .edit{
+  height: 15px;
+      width: 15px;
+    opacity: 0.5;
+
+}
+
+
+header .dropdown-menu .logout{
+  height: 15px;
+      width: 15px;
+    opacity: 0.5;
+
+
+}
 header .user a {
     font-size: 13px;
     color: #89949b;
-    padding-top: 5px;
+    
 }
 
 main h2 {
@@ -160,10 +210,11 @@ input.search {
     font-size: 13px;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
-    margin: 0;
     border-radius: 15px;
     top: 11px;
     box-shadow: inset 1px 1px 5px #d5d5d5;
+  
+
 }
 
 input.submit {

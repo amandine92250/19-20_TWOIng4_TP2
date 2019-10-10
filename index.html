@@ -6,40 +6,74 @@
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
         <!--Inclus bootsrap-->
+          
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
 
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
+        
+      
+      
 	</head>
 	<body>
-       
-        <div class="container-fluid">
+  
                
 		<header>
-			<div class="wrapper">
-                <div class="row">
-				<div class="logo-search">
+            
+			<div class="wrapper" class="row">
+            
+
+				<div class="logo">
 					<img class="pull-left" src="img/logo.png" />
-				</div>
-                    </div>
-                
-                <div class="row">
-                    <div class="col-md-5">
+           
+                </div>
+                    <div class="col-xs-5" class="search">
 				<form method="POST" action="index.html">
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
                         
-                        </div>
-                    </div>
+                    
+                </div>
+                    
+                    
+		<div class="user">
+                <div class="dropdown" >
+  <button type="button" class="btn btn-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"aria-haspopup="true" ><span style="color:#828c92;" >Luke Chesser</span>
+      <span class="caret"></span>
+                    </button>
+  <ul class="dropdown-menu dropdown-menu-right">
+      <li><a><img class="edit" src="img/icon/Edit.png"/> Edit my profil</a></li>
+     <li><a><img class="logout" src="img/icon/logout.png"/> Logout</a></li>
+     
+  </ul>
+</div>
+            </div>
                 
-                <div class="row">
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
-				</div>
-                    </div>
-			</div>
+                
+                
+                  
+                
+                
+                </div>
+                
+			
+
 		</header>
+        
+        
+        
+             
+        <div class="container-fluid">
+        
+            
 		<aside>
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -49,6 +83,7 @@
 					<li><a class="top" href="#">Top Charts</a></li>
 					<li><a class="new" href="#">New Releases</a></li>
 				</ul>
+                
 			</nav>
 			<h3>Your music</h3>
 			<nav class="music">
