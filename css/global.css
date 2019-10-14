@@ -9,24 +9,26 @@
     font-family: 'My Lucida', Console;
 }
 
+
 .container-fluid {
- padding-left: 8em;
- padding-right: 8em;
-    
+ padding-right:  9%;
+
+
 
 }
 
 
 @media (max-width: 768px){ 
     .container-fluid {
- padding-left: 2em;
- padding-right: 2em;
+ padding-left: 5%;
+ padding-right: 2%;
     
 
 }
+
     
 header .wrapper {
-    padding-left: 2em;
+   /* padding-left: 2em;*/
 } 
     
 }
@@ -58,8 +60,8 @@ display: inline-block;
 
 
 body > header {
-    margin-bottom: 20px;
-    background: blue;
+    margin-bottom: 2em;
+    background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
@@ -72,7 +74,7 @@ header .search  {
 
 header .logo{
     padding-right:4em;
- padding-left: 8em;
+ padding-left: 2em;
     float: left;
     
 }
@@ -106,8 +108,8 @@ header .dropdown-menu .logout{
 
 
 }
-header .user a {
-    font-size: 13px;
+header .user span {
+    font-size: 1em;
     color: #89949b;
     
 }
@@ -124,13 +126,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.7em;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.9em;
     font-weight: normal;
     color: #828c92;
 }
@@ -149,65 +151,103 @@ main header aside img {
     box-shadow: 0 0 5px #cecece;
 }
 
+
 nav ul li:last-child {
     margin-bottom: 30px;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.7em;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 .name p img { 
     margin-left: 12px;
 }
 
-/*
+
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
+    font-size: 0.75em;
+    padding: 5px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+    padding-bottom: 3em;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .stats-links a:last-child {
-    margin-right: 0;
+    margin-right: 0px;
+   
 }
 
 .stats-links a {
-    font-size: 12px;
-    font-weight: normal;
-    color: #4b5c66;
-}
-*/
-h2 {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
 
+.stats-links .stats{
+    margin-top: 3em;
+    
+}
+
+
+
+
+.stats-links .links{
+    margin-top: 3em;
+    
+
+}
+
+
+
+@media (max-width: 768px){ 
+.stats-links .links{
+         padding-top: 2em;
+   
+    
+
+}
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    color: #4b5c66;
+}
+
+
+
+
+body main{
+   /* top: 10px;
+    position: absolute;
+    top: 150px;
+    */
+    /*padding-left: 25%;*/
+}
 header form {
     width: 100%;
 }
 
-input.search {
+input.search { 
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
+    font-size: 1em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     border-radius: 15px;
@@ -222,7 +262,7 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.8em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -241,7 +281,7 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.8em;
     color: #89949b;
     margin: 10px 0;
 }
@@ -276,9 +316,11 @@ input.submit {
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+   padding-left: 2em;
+    padding-top: 1em;
 }
+
+
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
